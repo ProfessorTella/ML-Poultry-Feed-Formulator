@@ -1,1 +1,7 @@
-streamlit, pandas, numpy, joblib, random, json, os, scipy, sklearn, warnings, matplotlib
+streamlit
+pandas
+numpy
+joblib
+scipy
+scikit-learn
+matplotlib

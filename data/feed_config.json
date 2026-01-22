@@ -1,0 +1,142 @@
+{
+  "broiler_starter": {
+    "ingredient_cols": [
+      "Maize", "broken rice", "Rice polish", "MBM", "GNM", "sorghum",
+      "wheat", "bajra", "soyabean", "RSM", "fish meal", "CSM",
+      "Fat/oil", "limestone powder", "DCP", "salt", "lys", "met", "premix"
+    ],
+    "nutrient_constraints": {
+      "ME_kcal_per_kg": [2900, 3100],
+      "CP": [21.0, 23.0],
+      "lysine": [1.2, 1.4],
+      "Met": [0.4, 0.55],
+      "Ca": [0.95, 1.1],
+      "P_avail": [0.4, 0.5]
+    },
+    "bounds_map": {
+      "Maize": [15, 70],
+      "broken rice": [0, 50],
+      "Rice polish": [0, 20],
+      "MBM": [0, 10],
+      "GNM": [0, 25],
+      "sorghum": [0, 50],
+      "wheat": [0, 50],
+      "bajra": [0, 40],
+      "soyabean": [10, 40],
+      "RSM": [0, 10],
+      "fish meal": [0, 8],
+      "CSM": [0, 10],
+      "Fat/oil": [1.0, 5.0],
+      "limestone powder": [0.8, 1.0],
+      "DCP": [0.3, 1.8],
+      "salt": [0.349, 0.35],
+      "lys": [0.1, 0.35],
+      "met": [0.02, 0.1],
+      "premix": [0.249, 0.25]
+    },
+    "nutrient_data": {
+      "Ingredient": ["Maize", "broken rice", "Rice polish", "MBM", "GNM", "sorghum", "wheat", "bajra",
+                   "soyabean", "RSM", "fish meal", "CSM", "Fat/oil",
+                   "limestone powder", "DCP", "salt", "lys", "met", "premix"],
+    "CP": [8.5, 9.4, 12, 50.4, 45.6, 9.0, 13.0, 11.75, 48.0, 37.5, 65.0, 41.0, 0, 0, 0, 0, 78.0, 0, 0],
+    "ME_kcal_per_kg": [3336.5, 3245, 2900, 2677, 2664, 3263, 3153, 3070, 2557, 2000, 3005, 2060, 8800, 0, 0, 0, 0, 0, 0],
+    "lysine": [0.24, 0.34, 0.55, 2.6, 1.54, 0.3, 0.5, 0.35, 3.2, 2.2, 4.9, 1.7, 0, 0, 0, 0, 78.0, 0, 0],
+    "Met": [0.18, 0.34, 0.22, 0.68, 0.52, 0.15, 0.2, 0.28, 0.64, 0.4, 1.9, 0.63, 0, 0, 0, 0, 0, 99.0, 0],
+    "Ca": [0.05, 0.04, 0.15, 10.3, 0.12, 0.02, 0.05, 0.05, 0.2, 0.66, 4.0, 0.15, 0, 38.5, 23.0, 0, 0, 0, 0],
+    "P_avail": [0.12, 0.35, 1.2, 4.0, 0.3, 0.15, 0.2, 0.1, 0.37, 0.47, 2.5, 0.48, 0, 0, 18.0, 0, 0, 0, 0]
+  }
+  },
+  "broiler_finisher": {
+    "ingredient_cols": [
+      "Maize", "broken rice", "MBM", "GNM", "sorghum", "wheat", "bajra",
+      "soyabean meal", "RSM", "fish meal", "CSM", "Fat/oil",
+      "limestone powder", "DCP", "salt", "lys", "met", "premix"
+    ],
+    "nutrient_constraints": {
+      "ME_kcal_per_kg": [3000, 3250],
+      "CP": [18.0, 21.0],
+      "lysine": [1.0, 1.2],
+      "Met": [0.38, 0.47],
+      "Ca": [0.8, 1.1],
+      "P_avail": [0.35, 0.45]
+    },
+    "bounds_map": {
+      "Maize": [15, 70],
+      "broken rice": [0, 50],
+      "MBM": [0, 10],
+      "GNM": [0, 25],
+      "sorghum": [0, 50],
+      "wheat": [0, 50],
+      "bajra": [0, 40],
+      "soyabean meal": [10, 40],
+      "RSM": [0, 10],
+      "fish meal": [0, 5],
+      "CSM": [0, 10],
+      "Fat/oil": [1.0, 5.0],
+      "limestone powder": [0.8, 1.0],
+      "DCP": [0.3, 1.8],
+      "salt": [0.349, 0.35],
+      "lys": [0.1, 0.35],
+      "met": [0.02, 0.1],
+      "premix": [0.249, 0.25]
+    },
+    "nutrient_data": {
+      "Ingredient": ["Maize", "broken rice", "MBM", "GNM", "sorghum", "wheat", "bajra",
+                   "soyabean meal", "RSM", "fish meal", "CSM", "Fat/oil",
+                   "limestone powder", "DCP", "salt", "lys", "met", "premix"],
+    "CP": [8.5, 9.4, 50.4, 45.6, 9.0, 13.0, 11.75, 48.0, 37.5, 65.0, 41.0, 0, 0, 0, 0, 78.0, 0, 0],
+    "ME_kcal_per_kg": [3336.5, 3245, 2677, 2664, 3263, 3153, 3070, 2557, 2000, 3005, 2060, 8800, 0, 0, 0, 0, 0, 0],
+    "lysine": [0.24, 0.34, 2.6, 1.54, 0.3, 0.5, 0.35, 3.2, 2.2, 4.9, 1.7, 0, 0, 0, 0, 78.0, 0, 0],
+    "Met": [0.18, 0.34, 0.68, 0.52, 0.15, 0.2, 0.28, 0.64, 0.4, 1.9, 0.63, 0, 0, 0, 0, 0, 99.0, 0],
+    "Ca": [0.05, 0.04, 10.3, 0.12, 0.02, 0.05, 0.05, 0.2, 0.66, 4.0, 0.15, 0, 38.5, 23.0, 0, 0, 0, 0],
+    "P_avail": [0.12, 0.35, 4.0, 0.3, 0.15, 0.2, 0.1, 0.37, 0.47, 2.5, 0.48, 0, 0, 18.0, 0, 0, 0, 0]
+  }
+},
+  "layer_grower": {
+    "ingredient_cols": [
+      "Maize", "MGM", "DORB", "Rice Bran", "Rice polish", "Broken rice", "MBM", "GNM", "Sorghum", "Wheat", "Bajra",
+      "Soyabean meal", "RSM", "Fish meal", "CSM", "Limestone powder", "DCP", "Salt", "lys", "met", "Premix"
+    ],
+    "nutrient_constraints": {
+      "ME_kcal_per_kg": [2400, 2900],
+      "CP": [15.0, 19.0],
+      "LYSINE": [0.6, 0.9],
+      "MET": [0.3, 0.5],
+      "Ca": [0.9, 1.0],
+      "P_avail": [0.4, 0.5]
+    },
+    "bounds_map": {
+      "Maize": [15, 60],
+      "DORB": [0,10],
+      "MGM": [0, 10],
+      "Rice Bran": [0, 20],
+      "Broken rice": [0, 30],
+      "Rice polish": [0, 10],
+      "MBM": [0, 10],
+      "GNM": [0, 10],
+      "Sorghum": [0, 45],
+      "Wheat": [0, 30],
+      "Bajra": [0, 30],
+      "Soyabean meal": [15, 30],
+      "RSM": [0, 10],
+      "Fish meal": [0, 10],
+      "CSM": [0, 10],
+      "Limestone powder": [1, 1.5],
+      "DCP": [0.2, 1.5],
+      "Salt": [0.3, 0.4],
+      "lys": [0.02, 0.5],
+      "met": [0.01, 0.1],
+      "Premix": [0.25, 0.3]
+    },
+     "nutrient_data": {
+      "Ingredient": ["Maize", "MGM", "DORB", "Rice Bran", "Rice polish", "Broken rice", "MBM", "GNM", "Sorghum", "Wheat", "Bajra",
+                   "Soyabean meal", "RSM", "Fish meal", "CSM", "Limestone powder", "DCP", "Salt", "lys", "met", "Premix"],
+    "CP": [8.5, 60, 17.4, 12, 12, 7.5, 50.4, 45.6, 9.0, 13.0, 11.75, 48.0, 37.5, 65.0, 41.0, 0, 0, 0, 78.0, 0, 0],
+    "ME_kcal_per_kg": [3336.5, 3200, 1940, 2900, 2900, 3245, 2677, 2664, 3263, 3153, 3070, 2557, 2000, 3005, 2060, 0, 0, 0, 0, 0, 0],
+    "LYSINE": [0.24, 0.2, 0.76, 0.55, 0.55, 0.34, 2.6, 1.54, 0.3, 0.5, 0.35, 3.2, 2.2, 4.9, 1.7, 0, 0, 0, 78.0, 0, 0],
+    "MET": [0.18, 0.25, 0.37, 0.22, 0.22, 0.34, 0.68, 0.52, 0.15, 0.2, 0.28, 0.64, 0.4, 1.9, 0.63, 0, 0, 0, 0, 99.0, 0],
+    "Ca": [0.05, 0.03, 0.1, 0.15, 0.15, 0.04, 10.3, 0.12, 0.02, 0.05, 0.05, 0.2, 0.66, 4.0, 0.15, 38.5, 23.0, 0, 0, 0, 0],
+    "P_avail": [0.12, 0.8, 1.5, 1.2, 1.2, 0.35, 4.0, 0.3, 0.15, 0.2, 0.1, 0.37, 0.47, 2.5, 0.48, 0, 18.0, 0, 0, 0, 0]
+    }
+  }
+}
